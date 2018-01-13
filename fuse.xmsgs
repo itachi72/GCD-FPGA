@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"D:/gcd/reg_file.v" Line 29: Redeclaration of ansi port <arg fmt="%s" index="1">out</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"D:/gcd/datapath.v" Line 10: Redeclaration of ansi port <arg fmt="%s" index="1">gcd</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"D:/gcd/datapath.v" Line 11: Redeclaration of ansi port <arg fmt="%s" index="1">eq_flag</arg> is not allowed
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="751" delta="unknown" >"D:/gcd/control.v" Line 17: Redeclaration of ansi port <arg fmt="%s" index="1">x_sel</arg> is not allowed
+</msg>
+
+</messages>
+

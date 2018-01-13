@@ -1,0 +1,43 @@
+ISim log file
+Running: D:\gcd\tb_gcd1_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb D:/gcd/tb_gcd1_isim_beh.wdb 
+ISim P.40xd (signature 0x8ef4fb42)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+during reset
+Finished circuit initialization process.
+during reset
+eq flag not set
+during reset
+during reset
+during reset
+next state is test
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+update1
+eq flag not set
+if_flag set
+eq_flag set
+Stopped at time : 1 us : File "D:/gcd/tb_gcd1.v" Line 59

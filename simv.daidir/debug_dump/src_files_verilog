@@ -1,0 +1,6 @@
+/work/gcd/gcd/control.v
+/work/gcd/gcd/datapath.v
+/work/gcd/gcd/gcd.v
+/work/gcd/gcd/mux.v
+/work/gcd/gcd/reg_file.v
+/work/gcd/gcd/tb_gcd1.v

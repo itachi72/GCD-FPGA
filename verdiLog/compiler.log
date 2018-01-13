@@ -1,0 +1,46 @@
+*design* DebussyLib (btIdent Verdi3_L-2016.06-SP1-1)
+Command arguments:
+    +define+verilog
+    tb_gcd1.v
+    gcd.v
+    control.v
+    datapath.v
+    reg_file.v
+    mux.v
+    -ssv
+    -ssy
+
+
+*Warning* symbol x_sel duplicated
+"control.v", 17: 
+
+*Warning* symbol y_sel duplicated
+"control.v", 17: 
+
+*Warning* symbol x_load duplicated
+"control.v", 17: 
+
+*Warning* symbol y_load duplicated
+"control.v", 17: 
+
+*Warning* symbol gcd_load duplicated
+"control.v", 17: 
+
+*Warning* symbol gcd duplicated
+"datapath.v", 10: 
+
+*Warning* symbol eq_flag duplicated
+"datapath.v", 11: 
+
+*Warning* symbol if_flag duplicated
+"datapath.v", 11: 
+
+*Warning* symbol out duplicated
+"reg_file.v", 29: 
+Highest level modules:
+tb_gcd1
+
+
+*Warning* port sizes differ (32 vs 1) in port connection (port gcd)
+"gcd.v", 16: 
+Total	0 error(s),   10 warning(s)

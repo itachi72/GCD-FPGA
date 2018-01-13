@@ -1,0 +1,152 @@
+0 
+50
++cli+4
++itf+/cad/synopsys/vcsMx/amd64/lib/vcsdp.tab
++lint=all,noVCDE
++memcbk
++memcbk
++v2k
++vcsd
++vpi
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/cad/synopsys/vcsMx/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=
+-Mobjects= /cad/synopsys/vcsMx/amd64/lib/libvirsim.so /cad/synopsys/vcsMx/amd64/lib/liberrorinf.so /cad/synopsys/vcsMx/amd64/lib/libsnpsmalloc.so /cad/synopsys/verdi/share/PLI/VCS/linux64/pli.a
+-Mout=simv
+-Msaverestoreobj=/cad/synopsys/vcsMx/amd64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl -lm -lm
+-Mupdate
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/cad/synopsys/vcsMx/include
+-P
+-Xpiyushb1=0x80
+-debug=4
+-debug_access+all+dmptf+bc
+-debug_access+class+driver+dmptf+bc
+-debug_region=cell
+-debug_region=cell
+-full64
+-gen_obj
+-l
+-line
+-o simv
+-picarchive
+-v
+/cad/synopsys/vcsMx/amd64/bin/vcs1
+/cad/synopsys/verdi/share/PLI/VCS/linux64/novas.tab
+/home/vlsi23/Merin/support/12-track/tcbn65gplusbwp12t-set/tcbn65gplusbwp12t_200a_FE/TSMCHOME/digital/verilog/tcbn65gplusbwp12t.v
+compile.log
+control.v
+datapath.v
+gcd.v
+mux.v
+reg_file.v
+tb_gcd1.v
+81
+sysc_uni_pwd=/work/gcd/gcd
+no_proxy=localhost,127.0.0.0/8
+http_proxy=http://172.16.25.10:8080/
+XMODIFIERS=@im=none
+XDG_SESSION_COOKIE=5f6de9c8cfb7cb331141b92e00000012-1515298625.432453-1328380861
+XAUTHORITY=/var/run/gdm/auth-for-vlsi23-rgGKHy/database
+WINDOWPATH=1
+VSDEHOME=/cad/cadence1/VSDE
+VMR_MODE_FLAG=64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=compile.log
+VCS_HOME=/cad/synopsys/vcsMx
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=amd64
+USERNAME=vlsi23
+UNAME=/bin/uname
+TOOL_HOME=/cad/synopsys/vcsMx/amd64
+SSH_AUTH_SOCK=/tmp/keyring-3LyDoo/socket.ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SPBHOME=/cad/cadence1/SPB166
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/4496,unix/unix:/tmp/.ICE-unix/4496
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+RCHOME=/cad/cadence1/RC142
+QT_IM_MODULE=xim
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+ORBIT_SOCKETDIR=/tmp/orbit-vlsi23
+OA_HOME=/cad/cadence1/IC616_13/oa_v22.43.053
+NO_PROXY=localhost,127.0.0.0/8
+MPICH_PORT_RANGE=10000:10100
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MMSIMHOME=/cad/cadence1/MMSIM151
+MGLS_LICENSE_FILE=1717@192.168.34.210
+MGC_LIB=/cad/mentor/calibre/lib
+MGC_HOME=/cad/mentor/calibre
+MGC_DOC_PATH=/cad/mentor/calibre/docs
+MFLAGS=-w
+MENTOR_INSTALL=/cad/mentor
+MAKELEVEL=2
+MAKEFLAGS=w
+LOADEDMODULES=
+LIBERATEHOME=/cad/cadence1/LIBERATE151
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+IUSHOME=/cad/cadence1/ius82
+IMSETTINGS_MODULE=none
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+ICV_HOME_DIR=/cad/synopsys/icvalidator
+HTTP_PROXY=http://172.16.25.10:8080/
+HISTCONTROL=ignoredups
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/vlsi23/.gtkrc-1.2-gnome2
+GPG_AGENT_INFO=/tmp/seahorse-G6MuTH/S.gpg-agent:4574:1;
+GNOME_KEYRING_SOCKET=/tmp/keyring-3LyDoo/socket
+GNOME_KEYRING_PID=4486
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDM_LANG=en_US.UTF-8
+GDM_KEYBOARD_LAYOUT=us
+GDMSESSION=gnome
+ETSHOME=/cad/cadence1/ETS131
+ENCOUNTERHOME=/cad/cadence1/EDI142
+DESKTOP_SESSION=gnome
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-m1Px3fsjm0,guid=c55b493243648146fcb0aaf7000001dd
+CVS_RSH=ssh
+CONFRMLHOME=/cad/cadence1/CONFRML152
+COLORTERM=gnome-terminal
+CDS_Netlisting_Mode=Analog
+CDS_LIC_QA_TesT=./lic.log
+CDS_LIC_ONLY=t
+CDS_LIC_FILE=5280@vlsi5
+CDS_AUTO_64BIT=ALL
+CDSHOME=/cad/cadence1/IC616_13
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+ASSURAHOME=/cad/cadence1/ASSURA
+0
+9
+1274931766 /home/vlsi23/Merin/support/12-track/tcbn65gplusbwp12t-set/tcbn65gplusbwp12t_200a_FE/TSMCHOME/digital/verilog/tcbn65gplusbwp12t.v
+1515609204 mux.v
+1515652338 reg_file.v
+1515657085 datapath.v
+1515657580 control.v
+1515657821 gcd.v
+1515657967 tb_gcd1.v
+1458183857 /cad/synopsys/vcsMx/amd64/lib/vcsdp.tab
+1474973531 /cad/synopsys/verdi/share/PLI/VCS/linux64/novas.tab
+5
+0 
+1458185828 /cad/synopsys/vcsMx/amd64/lib/libvirsim.so
+1458185549 /cad/synopsys/vcsMx/amd64/lib/liberrorinf.so
+1458185537 /cad/synopsys/vcsMx/amd64/lib/libsnpsmalloc.so
+1474972681 /cad/synopsys/verdi/share/PLI/VCS/linux64/pli.a
+1515657970 simv.daidir

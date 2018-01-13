@@ -1,0 +1,71 @@
+@verdi rc file Version 1.0
+[General]
+VerdiVersion = Verdi3_L-2016.06-SP1-1
+[KeyNote]
+Line1 = Automatic Backup 0
+[TestBench]
+ConstrViewShow = 0
+InherViewShow = 0
+FSDBMsgShow = 0
+AnnotationShow = 0
+powerDumped = 0
+[Verdi_1]
+workMode = hardwareDebug
+[hb]
+postSimFile = /work/gcd/gcd/gcd.fsdb
+syncTime = 170000
+viewport = 0 47 1680 977 554 127 189 1678
+activeNode = "tb_gcd1"
+activeScope = "tb_gcd1"
+activeFile = "tb_gcd1.v"
+interactiveMode = False
+viewType = Source
+simulatorMode = False
+sourceBeginLine = 24
+baMode = False
+srcLineNum = True
+syncSignal = False
+traceMode = Hierarchical
+showTraceInSchema = True
+paMode = False
+funcMode = False
+traceCrossHier = True
+DnDtraceCrossHierOnly = True
+traceIncTopPort = False
+leadingZero = False
+signalPane = False
+Scope1 = "tb_gcd1"
+multipleSelection = 1 24 2 0 0
+sdfCheckUndef = FALSE
+simFlow = FALSE
+[hb.sourceTab.1]
+scope = tb_gcd1
+File = /work/gcd/gcd/tb_gcd1.v
+Line = 25
+[imp.design1]
+dbEnum =  oh
+invokeDir = /work/gcd/gcd
+design = DebussyLib
+hostCommand = hostCommand tb_gcd1.v gcd.v control.v datapath.v reg_file.v mux.v -ssv -ssy
+[nMemoryManager]
+FsdbFile = /work/gcd/gcd/gcd.fsdb
+UserActionNum = 0
+nMemWindowNum = 0
+[wave.0]
+viewPort = 0 28 1680 662 208 118
+SessionFile = /work/gcd/gcd/verdiLog/novas_autosave.ses.wave.0
+displayGrid = FALSE
+hierarchicalName = FALSE
+snap = TRUE
+displayLeadingZeros = FALSE
+fixDelta = FALSE
+displayCursorMarker = FALSE
+autoUpdate = FALSE
+highlightGlitchs = FALSE
+waveformSync = FALSE
+displayErrors = TRUE
+displayMsgSymbols = TRUE
+showMsgDescriptions = TRUE
+autoFit = FALSE
+displayDeltaY = FALSE
+centerCursor = FALSE

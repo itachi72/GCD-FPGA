@@ -1,0 +1,9 @@
+#!/bin/sh -h 
+PYTHONHOME=/cad/synopsys/vcsMx/etc/search/pyh
+export PYTHONHOME
+PYTHONPATH=/cad/synopsys/vcsMx/amd64/lib/pylib27
+export PYTHONPATH
+LD_LIBRARY_PATH=/cad/synopsys/vcsMx/amd64/lib:/cad/synopsys/vcsMx/amd64/lib/pylib27
+export LD_LIBRARY_PATH
+/cad/synopsys/vcsMx/amd64/bin/vcsfind_create_index.exe  -z  /work/gcd/gcd/simv.daidir/debug_dump/fsearch/idents_Dh6a2C.xml.gz  -o /work/gcd/gcd/simv.daidir/debug_dump/fsearch/fsearch.db_tmp
+\mv /work/gcd/gcd/simv.daidir/debug_dump/fsearch/fsearch.db_tmp /work/gcd/gcd/simv.daidir/debug_dump/fsearch/fsearch.db

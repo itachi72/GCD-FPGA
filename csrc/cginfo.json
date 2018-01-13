@@ -1,0 +1,64 @@
+{
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 105250
+    },
+    "MlibObjs": {},
+    "CurCompileUdps": {},
+    "PrevCompiledModules": {
+        "tb_gcd1": {
+            "vQNM2_d": {
+                "bytes": 40132,
+                "archive": "archive.15/_14232_archive_1.a",
+                "mod": "tb_gcd1",
+                "out": "vQNM2_d.o",
+                "mode": 4
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7227,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o",
+                "mode": 4
+            }
+        }
+    },
+    "NameTable": {
+        "tb_gcd1": [
+            "tb_gcd1",
+            "vQNM2",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "default_output_dir": "csrc",
+        "cwd": "/work/gcd/gcd",
+        "archive_dir": "archive.15",
+        "daidir": "/work/gcd/gcd/simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/work/gcd/gcd/csrc",
+        "daidir_abs": "/work/gcd/gcd/simv.daidir"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "tb_gcd1"
+    ],
+    "PEModules": [],
+    "CompileStatus": "Successful",
+    "CompileProcesses": [
+        "cgproc.14232.json"
+    ],
+    "stat": {
+        "nMops": 1773
+    }
+}

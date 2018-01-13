@@ -1,0 +1,306 @@
+[MHPI_DL_ERROR]./simv: undefined symbol: mhpi_addCheckpointFileCB
+ANF: vcsd_get_spice_hier_by_vpi('./simv: undefined symbol: vcsd_get_spice_hier_by_vpi')
+ANF: getWrealXZStateValue('./simv: undefined symbol: getWrealXZStateValue')
+ANF: vcsd_is_D2DOptimizedSpiceObj('./simv: undefined symbol: vcsd_is_D2DOptimizedSpiceObj')
+ANF: vcsd_register_1st_RTL_rfn('./simv: undefined symbol: vcsd_register_1st_RTL_rfn')
+ANF: vcsd_register_1st_sequential_rfn('./simv: undefined symbol: vcsd_register_1st_sequential_rfn')
+ANF: vcsd_register_2nd_RTL_rfn('./simv: undefined symbol: vcsd_register_2nd_RTL_rfn')
+ANF: vcsd_register_2nd_sequential_rfn('./simv: undefined symbol: vcsd_register_2nd_sequential_rfn')
+ANF: vcsd_register_1st_RTL_master_confirm('./simv: undefined symbol: vcsd_register_1st_RTL_master_confirm')
+ANF: vcsd_register_1st_RTL_master_defer('./simv: undefined symbol: vcsd_register_1st_RTL_master_defer')
+ANF: vcsd_register_2nd_RTL_master_remainRTL('./simv: undefined symbol: vcsd_register_2nd_RTL_master_remainRTL')
+ANF: vcsd_register_2nd_RTL_master_becomePrimary('./simv: undefined symbol: vcsd_register_2nd_RTL_master_becomePrimary')
+ANF: vcsd_register_1st_sequential_master_confirm('./simv: undefined symbol: vcsd_register_1st_sequential_master_confirm')
+ANF: vcsd_register_1st_sequential_master_defer('./simv: undefined symbol: vcsd_register_1st_sequential_master_defer')
+ANF: vcsd_register_2nd_sequential_master_remainSequential('./simv: undefined symbol: vcsd_register_2nd_sequential_master_remainSequential')
+ANF: vcsd_register_2nd_sequential_master_becomePrimary('./simv: undefined symbol: vcsd_register_2nd_sequential_master_becomePrimary')
+ANF: vcsd_set_sequential_interval_cb('./simv: undefined symbol: vcsd_set_sequential_interval_cb')
+ANF: vcsd_vc_ptr_disable_vc('./simv: undefined symbol: vcsd_vc_ptr_disable_vc')
+ANF: vcsd_vc_ptr_enable_vc('./simv: undefined symbol: vcsd_vc_ptr_enable_vc')
+ANF: vcsd_register_sequential_glitch('./simv: undefined symbol: vcsd_register_sequential_glitch')
+ANF: vcsd_is_string_cbks_on('./simv: undefined symbol: vcsd_is_string_cbks_on')
+ANF: scsd_xprop_is_enabled('./simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('./simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('./simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('./simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('./simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('./simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('./simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('./simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: msvEnableDumpingMode('./simv: undefined symbol: msvEnableDumpingMode')
+ANF: msvGetVersion('./simv: undefined symbol: msvGetVersion')
+ANF: msvGetInstProp('./simv: undefined symbol: msvGetInstProp')
+ANF: msvIsSpiceEngineReady('./simv: undefined symbol: msvIsSpiceEngineReady')
+ANF: msvSetAddProbeCallback('./simv: undefined symbol: msvSetAddProbeCallback')
+ANF: msvGetInstHandle('./simv: undefined symbol: msvGetInstHandle')
+ANF: msvGetProbeByInst('./simv: undefined symbol: msvGetProbeByInst')
+ANF: msvGetSigHandle('./simv: undefined symbol: msvGetSigHandle')
+ANF: msvGetProbeBySig('./simv: undefined symbol: msvGetProbeBySig')
+ANF: msvGetProbeInfo('./simv: undefined symbol: msvGetProbeInfo')
+ANF: msvRelease('./simv: undefined symbol: msvRelease')
+ANF: msvSetVcCallbackFunc('./simv: undefined symbol: msvSetVcCallbackFunc')
+ANF: msvCheckVcCallback('./simv: undefined symbol: msvCheckVcCallback')
+ANF: msvAddVcCallback('./simv: undefined symbol: msvAddVcCallback')
+ANF: msvRemoveVcCallback('./simv: undefined symbol: msvRemoveVcCallback')
+ANF: msvGetLatestValue('./simv: undefined symbol: msvGetLatestValue')
+ANF: msvSetEndofSimCallback('./simv: undefined symbol: msvSetEndofSimCallback')
+ANF: msvIgnoredProbe('./simv: undefined symbol: msvIgnoredProbe')
+ANF: msvGetThruNetInfo('./simv: undefined symbol: msvGetThruNetInfo')
+ANF: msvFreeThruNetInfo('./simv: undefined symbol: msvFreeThruNetInfo')
+ANF: PI_ace_get_output_time_unit('./simv: undefined symbol: PI_ace_get_output_time_unit')
+ANF: PI_ace_sim_sync('./simv: undefined symbol: PI_ace_sim_sync')
+ANF: msvGetRereadInitFile('./simv: undefined symbol: msvGetRereadInitFile')
+ANF: msvSetBeforeRereadCallback('./simv: undefined symbol: msvSetBeforeRereadCallback')
+ANF: msvSetAfterRereadCallback('./simv: undefined symbol: msvSetAfterRereadCallback')
+ANF: msvSetForceCallback('./simv: undefined symbol: msvSetForceCallback')
+ANF: msvSetReleaseCallback('./simv: undefined symbol: msvSetReleaseCallback')
+ANF: msvGetForceStatus('./simv: undefined symbol: msvGetForceStatus')
+ANF: upf_enum_to_str('./simv: undefined symbol: upf_enum_to_str')
+ANF: upf_str_to_enum('./simv: undefined symbol: upf_str_to_enum')
+ANF: upf_get('./simv: undefined symbol: upf_get')
+ANF: upf_get_str('./simv: undefined symbol: upf_get_str')
+ANF: upf_get_real('./simv: undefined symbol: upf_get_real')
+ANF: upf_handle('./simv: undefined symbol: upf_handle')
+ANF: upf_handle_by_index('./simv: undefined symbol: upf_handle_by_index')
+ANF: upf_handle_by_str_map_key('./simv: undefined symbol: upf_handle_by_str_map_key')
+ANF: upf_iterator('./simv: undefined symbol: upf_iterator')
+ANF: upf_scan('./simv: undefined symbol: upf_scan')
+ANF: upf_release_handle('./simv: undefined symbol: upf_release_handle')
+ANF: upf_create_callback('./simv: undefined symbol: upf_create_callback')
+ANF: upf_register_callback('./simv: undefined symbol: upf_register_callback')
+ANF: upf_remove_callback('./simv: undefined symbol: upf_remove_callback')
+ANF: upf_get_value('./simv: undefined symbol: upf_get_value')
+ANF: upf_trigger_all_registered_callbacks('./simv: undefined symbol: upf_trigger_all_registered_callbacks')
+ANF: upf_convert_value_to_str('./simv: undefined symbol: upf_convert_value_to_str')
+ANF: plato_init('./simv: undefined symbol: plato_init')
+ANF: get_upf_root('./simv: undefined symbol: get_upf_root')
+ANF: get_pvh_root('./simv: undefined symbol: get_pvh_root')
+ANF: pvh_get('./simv: undefined symbol: pvh_get')
+ANF: pvh_handle('./simv: undefined symbol: pvh_handle')
+ANF: pvh_iterator('./simv: undefined symbol: pvh_iterator')
+ANF: pvh_scan('./simv: undefined symbol: pvh_scan')
+ANF: pvh_release_handle('./simv: undefined symbol: pvh_release_handle')
+VCS compile option:
+ option[0]: ./simv
+ option[1]: -l
+ option[2]: vcs.log
+ option[3]: /cad/synopsys/vcsMx/amd64/bin/vcs1
+ option[4]: -Mcc=gcc
+ option[5]: -Mcplusplus=g++
+ option[6]: -Masflags=
+ option[7]: -Mcfl= -pipe -fPIC -O -I/cad/synopsys/vcsMx/include 
+ option[8]: -Mxcflags= -pipe -fPIC -I/cad/synopsys/vcsMx/include
+ option[9]: -Mldflags= 
+ option[10]: -Mout=simv
+ option[11]: -Mamsrun=
+ option[12]: -Mvcsaceobjs=
+ option[13]: -Mobjects= /cad/synopsys/vcsMx/amd64/lib/libvirsim.so /cad/synopsys/vcsMx/amd64/lib/liberrorinf.so /cad/synopsys/vcsMx/amd64/lib/libsnpsmalloc.so /cad/synopsys/verdi/share/PLI/VCS/linux64/pli.a 
+ option[14]: -Mexternalobj=
+ option[15]: -Msaverestoreobj=/cad/synopsys/vcsMx/amd64/lib/vcs_save_restore_new.o
+ option[16]: -Mcrt0=
+ option[17]: -Mcrtn=
+ option[18]: -Mcsrc=
+ option[19]: -Mupdate
+ option[20]: -Msyslibs=-ldl -lm -lm 
+ option[21]: -l
+ option[22]: compile.log
+ option[23]: -full64
+ option[24]: -P
+ option[25]: /cad/synopsys/verdi/share/PLI/VCS/linux64/novas.tab
+ option[26]: +lint=all,noVCDE
+ option[27]: +v2k
+ option[28]: -debug_access+all+dmptf+bc
+ option[29]: +vpi
+ option[30]: +vcsd
+ option[31]: +memcbk
+ option[32]: +itf+/cad/synopsys/vcsMx/amd64/lib/vcsdp.tab
+ option[33]: -debug_region=cell
+ option[34]: -Xpiyushb1=0x80
+ option[35]: -o
+ option[36]: simv
+ option[37]: -picarchive
+ option[38]: -debug_access+class+driver+dmptf+bc
+ option[39]: -debug_region=cell
+ option[40]: +cli+4
+ option[41]: -line
+ option[42]: -debug=4
+ option[43]: +memcbk
+ option[44]: +vpi
+ option[45]: -gen_obj
+ option[46]: tb_gcd1.v
+ option[47]: gcd.v
+ option[48]: control.v
+ option[49]: datapath.v
+ option[50]: reg_file.v
+ option[51]: mux.v
+ option[52]: -v
+ option[53]: /home/vlsi23/Merin/support/12-track/tcbn65gplusbwp12t-set/tcbn65gplusbwp12t_200a_FE/TSMCHOME/digital/verilog/tcbn65gplusbwp12t.v
+Chronologic Simulation VCS Release J-2014.12-SP3-8_Full64
+Linux 2.6.32-504.el6.x86_64 #1 SMP Tue Sep 16 01:56:35 EDT 2014 x86_64
+CPU cores: 4
+Limit information:
+======================================
+cputime			unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		10240 kbytes
+coredumpsize	0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked	64 kbytes
+maxproc			1024
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+DESKTOP_SESSION=gnome
+QTDIR=/usr/lib64/qt-3.3
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+GTK_RC_FILES=/etc/gtk/gtkrc:/home/vlsi23/.gtkrc-1.2-gnome2
+XAUTHORITY=/var/run/gdm/auth-for-vlsi23-rgGKHy/database
+GDMSESSION=gnome
+XMODIFIERS=@im=none
+GDM_LANG=en_US.UTF-8
+SHELL=/bin/bash
+_=/usr/bin/make
+LIBERATEHOME=/cad/cadence1/LIBERATE151
+HISTCONTROL=ignoredups
+USERNAME=vlsi23
+ENCOUNTERHOME=/cad/cadence1/EDI142
+IUSHOME=/cad/cadence1/ius82
+GNOME_KEYRING_SOCKET=/tmp/keyring-3LyDoo/socket
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+GPG_AGENT_INFO=/tmp/seahorse-G6MuTH/S.gpg-agent:4574:1;
+ORBIT_SOCKETDIR=/tmp/orbit-vlsi23
+CDS_LIC_ONLY=t
+NO_PROXY=localhost,127.0.0.0/8
+LM_LICENSE_FILE=27020@192.168.34.210
+CDS_LIC_QA_TesT=./lic.log
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/4496,unix/unix:/tmp/.ICE-unix/4496
+WINDOWID=77594628
+CDS_AUTO_64BIT=ALL
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:
+SPBHOME=/cad/cadence1/SPB166
+SSH_AUTH_SOCK=/tmp/keyring-3LyDoo/socket.ssh
+OA_HOME=/cad/cadence1/IC616_13/oa_v22.43.053
+KDEDIRS=/usr
+DISPLAY=:0.0
+no_proxy=localhost,127.0.0.0/8
+MGC_HOME=/cad/mentor/calibre
+IMSETTINGS_INTEGRATE_DESKTOP=yes
+HOME=/home/vlsi23
+VCS_HOME=/cad/synopsys/vcsMx
+PWD=/work/gcd/gcd
+G_BROKEN_FILENAMES=1
+MGLS_LICENSE_FILE=1717@192.168.34.210
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-m1Px3fsjm0,guid=c55b493243648146fcb0aaf7000001dd
+LD_LIBRARY_PATH=/cad/synopsys/verdi/share/PLI/lib/linux64
+XDG_SESSION_COOKIE=5f6de9c8cfb7cb331141b92e00000012-1515298625.432453-1328380861
+MODULESHOME=/usr/share/Modules
+LOGNAME=vlsi23
+GDM_KEYBOARD_LAYOUT=us
+CDS_LIC_FILE=5280@vlsi5
+MGC_LIB=/cad/mentor/calibre/lib
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+HOSTNAME=vlsi23
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+COLORTERM=gnome-terminal
+QT_IM_MODULE=xim
+SHLVL=3
+MENTOR_INSTALL=/cad/mentor
+USER=vlsi23
+QTLIB=/usr/lib64/qt-3.3/lib
+MGC_DOC_PATH=/cad/mentor/calibre/docs
+CONFRMLHOME=/cad/cadence1/CONFRML152
+MPICH_PORT_RANGE=10000:10100
+GNOME_KEYRING_PID=4486
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+CVS_RSH=ssh
+IMSETTINGS_MODULE=none
+MAKEFLAGS=w
+MFLAGS=-w
+MAIL=/var/spool/mail/vlsi23
+LOADEDMODULES=
+HTTP_PROXY=http://172.16.25.10:8080/
+ICV_HOME_DIR=/cad/synopsys/icvalidator
+CDSHOME=/cad/cadence1/IC616_13
+VSDEHOME=/cad/cadence1/VSDE
+KDE_IS_PRELINKED=1
+MMSIMHOME=/cad/cadence1/MMSIM151
+RCHOME=/cad/cadence1/RC142
+PATH=/cad/siynopsys/primetime/amd64/syn/bin:/cad/synopsys/design_vision/bin:/cad/synopsys/custom_design/bin:/cad/synopsys/icvalidator/bin/AMD.64:/cad/synopsys/vcsMx/bin:/cad/synopsys/cx/bin:/cad/synopsys/verdi/bin:/cad/synopsys/Hspice/hspice/bin:/cad/synopsys/starxc/amd64_starxc/bin:/cad/tcad/sentaurus/bin:/cad/synopsys/TetraMAX/bin:/cad/synopsys/ic_compilier/bin:/cad/cadence1/MMSIM151/tools/bin:/tools/bin:/tools/dfII/bin:/share/bin:/bin:/cad/cadence1/SPB166/tools/bin:/cad/cadence1/SPB166/tools/pcb/bin:/cad/cadence1/SPB166/tools/editor/lib:/cad/cadence1/SPB166/tools/specctra/bin:/cad/cadence1/SPB166/tools/fet/bin:/cad/cadence1/CONFRML152/bin:/cad/cadence1/CONFRML152/share/bin:/cad/cadence1/CONFRML152/tools/bin:/cad/cadence1/CONFRML152/tools/dfII/bin:/cad/cadence1/ASSURA/bin:/cad/cadence1/ASSURA/tools/bin:/cad/cadence1/ASSURA/tools/dfII/bin:/cad/cadence1/ASSURA/share/oa/bin:/cad/cadence1/IC616_13/tools/dfII/verilogIn/bin:/cad/cadence1/IC616_13/tools/bin:/cad/cadence1/IC616_13/tools/dfII/bin:/cad/cadence1/IC616_13/share/bin:/cad/cadence1/IC616_13/bin:/cad/cadence1/ASSURA41/oa_v22.41.004/bin:/cad/cadence1/EDI142/bin:/cad/cadence1/RC142/bin:/cad/cadence1/RC142/tools/bin:/cad/cadence1/RC142/tools/dfII/bin:/cad/cadence1/RC142/share/bin:/cad/cadence1/RC142/tools.lnx86/dfII/bin:/cad/cadence1/RC142/tools.lnx86/bin:/cad/cadence1/LIBERATE151/bin:/cad/cadence1/LIBERATE151/tools.lnx86/bin:/cad/cadence1/LIBERATE151/tools.lnx86/dfII/bin:/cad/cadence1/LIBERATE151/share/bin:/cad/cadence1/ETS131/bin:/cad/cadence1/ETS131/tools/bin:/cad/cadence1/ETS131/tools/dfII/bin:/cad/cadence1/ETS131/tools.lnx86/dfII/bin:/cad/cadence1/ETS131/tools.lnx86/dfII/bin:/cad/cadence1/ETS131/share/bin:/cad/mentor/calibre/bin:/cad/siynopsys/primetime/amd64/syn/bin:/cad/synopsys/design_vision/bin:/cad/synopsys/custom_design/bin:/cad/synopsys/icvalidator/bin/AMD.64:/cad/synopsys/vcsMx/bin:/cad/synopsys/cx/bin:/cad/synopsys/verdi/bin:/cad/synopsys/Hspice/hspice/bin:/cad/synopsys/starxc/amd64_starxc/bin:/cad/tcad/sentaurus/bin:/cad/synopsys/TetraMAX/bin:/cad/synopsys/ic_compilier/bin:/cad/cadence1/MMSIM151/tools/bin:/tools/bin:/tools/dfII/bin:/share/bin:/bin:/cad/cadence1/SPB166/tools/bin:/cad/cadence1/SPB166/tools/pcb/bin:/cad/cadence1/SPB166/tools/editor/lib:/cad/cadence1/SPB166/tools/specctra/bin:/cad/cadence1/SPB166/tools/fet/bin:/cad/cadence1/CONFRML152/bin:/cad/cadence1/CONFRML152/share/bin:/cad/cadence1/CONFRML152/tools/bin:/cad/cadence1/CONFRML152/tools/dfII/bin:/cad/cadence1/ASSURA/bin:/cad/cadence1/ASSURA/tools/bin:/cad/cadence1/ASSURA/tools/dfII/bin:/cad/cadence1/ASSURA/share/oa/bin:/cad/cadence1/IC616_13/tools/dfII/verilogIn/bin:/cad/cadence1/IC616_13/tools/bin:/cad/cadence1/IC616_13/tools/dfII/bin:/cad/cadence1/IC616_13/share/bin:/cad/cadence1/IC616_13/bin:/cad/cadence1/ASSURA41/oa_v22.41.004/bin:/cad/cadence1/EDI142/bin:/cad/cadence1/RC142/bin:/cad/cadence1/RC142/tools/bin:/cad/cadence1/RC142/tools/dfII/bin:/cad/cadence1/RC142/share/bin:/cad/cadence1/RC142/tools.lnx86/dfII/bin:/cad/cadence1/RC142/tools.lnx86/bin:/cad/cadence1/LIBERATE151/bin:/cad/cadence1/LIBERATE151/tools.lnx86/bin:/cad/cadence1/LIBERATE151/tools.lnx86/dfII/bin:/cad/cadence1/LIBERATE151/share/bin:/cad/cadence1/ETS131/bin:/cad/cadence1/ETS131/tools/bin:/cad/cadence1/ETS131/tools/dfII/bin:/cad/cadence1/ETS131/tools.lnx86/dfII/bin:/cad/cadence1/ETS131/tools.lnx86/dfII/bin:/cad/cadence1/ETS131/share/bin:/cad/mentor/calibre/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/sbin:/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/vlsi23/bin
+HISTSIZE=1000
+CDS_Netlisting_Mode=Analog
+WINDOWPATH=1
+QTINC=/usr/lib64/qt-3.3/include
+http_proxy=http://172.16.25.10:8080/
+ETSHOME=/cad/cadence1/ETS131
+ASSURAHOME=/cad/cadence1/ASSURA
+LANG=en_US.UTF-8
+TERM=xterm
+MAKELEVEL=2
+VCS_PATHMAP_PRELOAD_DONE=1
+LC_ALL=C
+DVE=/cad/synopsys/vcsMx/gui/dve
+TCLLIBPATH=/tmp/auxx/tcllib/lib/tcl8.4
+SPECMAN_OUTPUT_TO_TTY=1
+Runtime command line arguments:
+argv[0]=./simv
+argv[1]=-l
+argv[2]=vcs.log
+251 profile - 100
+          CPU/Mem usage: 0.030 sys,  0.300 user,  138.16M sys,  0.00M vm
+252 VC callback profile - scalar:0 vector:0
+253 Thu Jan 11 13:36:11 2018
+254 pliAppInit
+255 *Verdi3* : Enable Parallel Dumping.
+256 pliAppMiscSet: New Sim Round
+257 pliEntryInit
+258 LIBSSCORE=found /cad/synopsys/verdi/share/PLI/lib/linux64/libsscore_vcs201412.so through $LD_LIBRARY_PATH setting.
+259 FSDB Dumper for VCS, Release Verdi3_L-2016.06-SP1-1, Linux x86_64/64bit, 09/27/2016
+260 (C) 1996 - 2016 by Synopsys, Inc.
+261 sps_call_fsdbDumpfile at 0 : tb_gcd1.v(75)
+262 argv[0]: gcd.fsdb
+263 *Verdi3* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+264 *Verdi3* : Create FSDB file 'gcd.fsdb'
+265 sps_call_fsdbDumpvars at 0 : tb_gcd1.v(76)
+266 argv[0]: 0
+267 argv[1]: (handle)0x1555818 tb_gcd1
+268 *Verdi3* : Begin traversing the scope (tb_gcd1), layer (0).
+269 *Verdi3* : End of traversing.
+270 fsdbDumpvars traverse var: profile - 
+          CPU/Mem usage: 0.040 sys,  0.310 user,  225.67M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  3.30M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  3.30M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  3.30M sys,  0.00M vm
+
+          Count usage: 74 var,  40 idcode,  40 callback
+                 incr: 74 var,  40 idcode,  40 callback
+                 accu: 74 var,  40 idcode,  40 callback
+            accu incr: 74 var,  40 idcode,  40 callback
+271 VC callback profile - scalar:0 vector:0
+272 Thu Jan 11 13:36:11 2018
+273 fsdbDumpvars: profile - 
+          CPU/Mem usage: 0.040 sys,  0.310 user,  226.73M sys,  0.00M vm
+                   incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+                   accu: 0.000 sys,  0.000 user,  4.35M sys,  0.00M vm
+              accu incr: 0.000 sys,  0.000 user,  1.05M sys,  0.00M vm
+
+          Count usage: 74 var,  40 idcode,  40 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 74 var,  40 idcode,  40 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+274 VC callback profile - scalar:0 vector:40
+275 Thu Jan 11 13:36:11 2018
+276 End of simulation at 1000000
+277 VC callback profile - scalar:234 vector:76
+278 Thu Jan 11 13:36:11 2018
+279 Begin FSDB profile info:
+280 FSDB Writer : flush elapsed time(0.064963) bc1(257) bcn(53) mtf/stf(0/0) MT Compression : 0
+281 End FSDB profile info
+282 Parallel profile    -  Flush:3 Expand:0 ProduceWait:0 ConsumerWait:0 BlockUsed:0
+283                        ProduceTime:0.363769826 ConsumerTime:0.000000000 Buffer:64MB
+284 SimExit
+285 Sim process exit

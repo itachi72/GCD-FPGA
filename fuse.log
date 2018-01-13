@@ -1,0 +1,33 @@
+Running: E:\xilinx_setup\14.3\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o D:/gcd/tb_gcd1_isim_beh.exe -prj D:/gcd/tb_gcd1_beh.prj work.tb_gcd1 work.glbl 
+ISim P.40xd (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/gcd/reg_file.v" into library work
+WARNING:HDLCompiler:751 - "D:/gcd/reg_file.v" Line 29: Redeclaration of ansi port out is not allowed
+Analyzing Verilog file "D:/gcd/mux.v" into library work
+Analyzing Verilog file "D:/gcd/datapath.v" into library work
+WARNING:HDLCompiler:751 - "D:/gcd/datapath.v" Line 10: Redeclaration of ansi port gcd is not allowed
+WARNING:HDLCompiler:751 - "D:/gcd/datapath.v" Line 11: Redeclaration of ansi port eq_flag is not allowed
+Analyzing Verilog file "D:/gcd/control.v" into library work
+WARNING:HDLCompiler:751 - "D:/gcd/control.v" Line 17: Redeclaration of ansi port x_sel is not allowed
+Analyzing Verilog file "D:/gcd/gcd.v" into library work
+Analyzing Verilog file "D:/gcd/tb_gcd1.v" into library work
+Analyzing Verilog file "E:/xilinx_setup/14.3/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 105124 KB
+Fuse CPU Usage: 311 ms
+Compiling module mux
+Compiling module reg_file
+Compiling module datapath
+Compiling module control
+Compiling module gcd
+Compiling module tb_gcd1
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable D:/gcd/tb_gcd1_isim_beh.exe
+Fuse Memory Usage: 109716 KB
+Fuse CPU Usage: 374 ms

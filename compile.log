@@ -1,0 +1,118 @@
+Command: vcs -full64 -P /cad/synopsys/verdi/share/PLI/VCS/linux64/novas.tab /cad/synopsys/verdi/share/PLI/VCS/linux64/pli.a \
+-Mupdate +lint=all,noVCDE +v2k -debug_all -o simv tb_gcd1.v gcd.v control.v datapath.v \
+reg_file.v mux.v -v /home/vlsi23/Merin/support/12-track/tcbn65gplusbwp12t-set/tcbn65gplusbwp12t_200a_FE/TSMCHOME/digital/verilog/tcbn65gplusbwp12t.v \
+-l compile.log
+                         Chronologic VCS (TM)
+      Version J-2014.12-SP3-8_Full64 -- Thu Jan 11 13:36:09 2018
+               Copyright (c) 1991-2014 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+Parsing design file 'tb_gcd1.v'
+Parsing design file 'gcd.v'
+
+Lint-[IWU] Implicit wire is used
+gcd.v, 16
+  No type is specified for wire 'gcdout'. Default wire type is being applied 
+  according to the IEEE spec.
+  See the Verilog LRM(1364-2005), section 4.5.
+
+Parsing design file 'control.v'
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+control.v, 17
+  Redeclaration of ANSI ports not allowed for 'x_sel', this will be an error 
+  in a future release
+
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+control.v, 17
+  Redeclaration of ANSI ports not allowed for 'y_sel', this will be an error 
+  in a future release
+
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+control.v, 17
+  Redeclaration of ANSI ports not allowed for 'x_load', this will be an error 
+  in a future release
+
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+control.v, 17
+  Redeclaration of ANSI ports not allowed for 'y_load', this will be an error 
+  in a future release
+
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+control.v, 17
+  Redeclaration of ANSI ports not allowed for 'gcd_load', this will be an 
+  error in a future release
+
+Parsing design file 'datapath.v'
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+datapath.v, 10
+  Redeclaration of ANSI ports not allowed for 'gcd', this will be an error in 
+  a future release
+
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+datapath.v, 11
+  Redeclaration of ANSI ports not allowed for 'eq_flag', this will be an error
+  in a future release
+
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+datapath.v, 11
+  Redeclaration of ANSI ports not allowed for 'if_flag', this will be an error
+  in a future release
+
+Parsing design file 'reg_file.v'
+
+Warning-[IPDASP] Identifier in ANSI port declaration
+reg_file.v, 29
+  Redeclaration of ANSI ports not allowed for 'out', this will be an error in 
+  a future release
+
+Parsing design file 'mux.v'
+Top Level Modules:
+       tb_gcd1
+TimeScale is 1 ns / 1 ps
+
+Lint-[ONGS] Output never gets set
+gcd.v, 5
+"gcd_out"
+  Output port 'gcd_out' has never been assigned to any value.
+  
+
+
+Lint-[PCWM-L] Port connection width mismatch
+gcd.v, 13
+"datapath d1( .clk (clk),  .reset (reset),  .x_sel (xsel),  .y_sel (ysel),  .x_load (xload),  .y_load (yload),  .gcd_load (gcdload),  .a (num1),  .b (num2),  .eq_flag (eqflag),  .if_flag (ifflag),  .gcd (gcdout));"
+  The following 1-bit expression is connected to 32-bit port "gcd" of module 
+  "datapath", instance "d1".
+  Expression: gcdout
+  The expression is from module gcd, instance uut 
+
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module tb_gcd1 because:
+	This module or some inlined child module(s) has/have been modified.
+make[2]: Entering directory `/work/gcd/gcd/csrc'
+rm -f _csrc*.so amd64_scvhdl_*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod -x ../simv; fi
+g++  -o ../simv   -Wl,-rpath-link=./ -Wl,-rpath='$ORIGIN'/simv.daidir/ -Wl,-rpath=./simv.daidir/ \
+-Wl,-rpath='$ORIGIN'/simv.daidir//scsim.db.dir    amcQwB.o objs/amcQw_d.o   _14232_archive_1.so \
+SIM_l.o       rmapats_mop.o rmapats.o rmar.o  rmar_llvm_0_1.o rmar_llvm_0_0.o    \
+/cad/synopsys/vcsMx/amd64/lib/libzerosoft_rt_stubs.so /cad/synopsys/vcsMx/amd64/lib/libvirsim.so \
+/cad/synopsys/vcsMx/amd64/lib/liberrorinf.so /cad/synopsys/vcsMx/amd64/lib/libsnpsmalloc.so \
+/cad/synopsys/verdi/share/PLI/VCS/linux64/pli.a    /cad/synopsys/vcsMx/amd64/lib/libvcsnew.so \
+/cad/synopsys/vcsMx/amd64/lib/libuclinative.so   -Wl,-whole-archive /cad/synopsys/vcsMx/amd64/lib/libvcsucli.so \
+-Wl,-no-whole-archive        _vcs_pli_stub_.o   /cad/synopsys/vcsMx/amd64/lib/vcs_save_restore_new.o \
+-ldl -lm -lm  -lc -lpthread -ldl 
+../simv up to date
+make[2]: Leaving directory `/work/gcd/gcd/csrc'
+CPU time: .191 seconds to compile + .162 seconds to elab + .360 seconds to link

@@ -1,0 +1,36 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "tb_gcd1": {
+            "Compiled": "Yes",
+            "Compiled Times": 16
+        }
+    },
+    "CompUnits": {
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 7227,
+            "mode": 4
+        },
+        "vQNM2_d": {
+            "archive": "archive.15/_14232_archive_1.a",
+            "mod": "tb_gcd1",
+            "out": "vQNM2_d.o",
+            "bytes": 40132,
+            "mode": 4
+        }
+    },
+    "ObjArchives": [
+        {
+            "archive": "archive.15/_14232_archive_1.a",
+            "objects": [
+                [
+                    "vQNM2_d.o",
+                    40132
+                ]
+            ],
+            "size": 40132
+        }
+    ]
+}

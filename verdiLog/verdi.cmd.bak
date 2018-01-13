@@ -1,0 +1,46 @@
+verdiWindowResize -win $_Verdi_1 "0" "47" "1680" "977"
+debImport "tb_gcd1.v" "gcd.v" "control.v" "datapath.v" "reg_file.v" "mux.v" \
+          "-ssv" "-ssy"
+verdiDockWidgetDisplay -dock widgetDock_WelcomePage
+verdiWindowWorkMode -win $_Verdi_1 -hardwareDebug
+wvCreateWindow
+wvSetPosition -win $_nWave2 {("G1" 0)}
+wvOpenFile -win $_nWave2 {/work/gcd/gcd/gcd.fsdb}
+wvSetCursor -win $_nWave2 33539.909639
+wvRestoreSignal -win $_nWave2 "/work/gcd/gcd/signal.rc" -overWriteAutoAlias on
+srcHBSelect "tb_gcd1.uut" -win $_nTrace1
+srcSetScope -win $_nTrace1 "tb_gcd1.uut" -delim "."
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "DONE" -win $_nTrace1
+srcAddSelectedToWave -win $_nTrace1
+wvSetPosition -win $_nWave2 {("G3" 4)}
+wvSetPosition -win $_nWave2 {("G3" 5)}
+wvSetPosition -win $_nWave2 {("G3" 6)}
+wvSetPosition -win $_nWave2 {("G4" 0)}
+wvSetPosition -win $_nWave2 {("G4" 1)}
+wvSetPosition -win $_nWave2 {("G4" 2)}
+wvMoveSelected -win $_nWave2
+wvSetPosition -win $_nWave2 {("G4" 3)}
+wvSelectSignal -win $_nWave2 {( "G2" 3 )} 
+wvSetRadix -win $_nWave2 -format UDec {("G2" 3)}
+wvSelectSignal -win $_nWave2 {( "G2" 4 )} 
+wvSetRadix -win $_nWave2 -format UDec {("G2" 4)}
+wvSelectSignal -win $_nWave2 {( "G2" 5 )} 
+wvSetRadix -win $_nWave2 -format UDec {("G2" 5)}
+wvSelectSignal -win $_nWave2 {( "G3" 4 )} 
+wvSetRadix -win $_nWave2 -format UDec {("G3" 4)}
+wvSelectSignal -win $_nWave2 {( "G3" 3 )} 
+wvSetRadix -win $_nWave2 -format UDec {("G3" 3)}
+wvSelectSignal -win $_nWave2 {( "G3" 5 )} 
+wvSetRadix -win $_nWave2 -format UDec {("G3" 5)}
+wvSelectSignal -win $_nWave2 {( "G3" 4 )} 
+wvSetRadix -win $_nWave2 -2Com {("G3" 4)}
+wvSelectSignal -win $_nWave2 {( "G2" 5 )} 
+wvSelectSignal -win $_nWave2 {( "G2" 4 )} 
+wvSetRadix -win $_nWave2 -2Com {("G2" 4)}
+wvSelectSignal -win $_nWave2 {( "G3" 5 )} 
+wvSetRadix -win $_nWave2 -2Com {("G3" 5)}
+wvSelectSignal -win $_nWave2 {( "G2" 5 )} 
+wvSetRadix -win $_nWave2 -2Com {("G2" 5)}
+wvSaveSignal -win $_nWave2 "/work/gcd/gcd/signal.rc"
+debExit
